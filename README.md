@@ -32,17 +32,17 @@ Clone the Mantle GitHub repository using the following command:
 ```
 git clone https://github.com/mantlenetworkio/mantle.git
 ```
-3. Navigate to the l2geth Directory
+### 3. Navigate to the l2geth Directory
 Navigate to the l2geth directory within the Mantle repository:
 ```
 cd mantle/l2geth
 ```
-4. Compile the Mantle Geth Node
+### 4. Compile the Mantle Geth Node
 Compile the Mantle Geth node using the Makefile with the following command:
 ```
 make geth
 ```
-5. Start as a Verifier
+### 5. Start as a Verifier
 Start the node as a Verifier to join the Mantle network:
 ```
 ./build/bin/geth --rollup.verifier
